@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TireHouse.DTO;
 
@@ -21,10 +22,7 @@ public class Product : IEntity
 
     public bool IsDeleted {  get; set; }
 
-
-    [Required]
     public DateTime ProductionDate { get; set; }
 
-    [Required]
-    public Category Category { get; set; } = null!;
+    public Category? Category { get; set; }
 }

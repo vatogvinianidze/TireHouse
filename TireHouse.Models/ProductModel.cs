@@ -1,3 +1,3 @@
 ﻿namespace TireHouse.Models;
 
-public record ProductModel(int id, string name, string manufactorer, string size);
+public record ProductModel(string Name, string Manufactorer, string Size, DateTime ProductionDate);

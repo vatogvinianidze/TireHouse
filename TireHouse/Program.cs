@@ -1,4 +1,5 @@
 using TireHouse.Configuration;
+using TireHouse.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;

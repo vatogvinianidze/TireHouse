@@ -23,11 +23,10 @@ public class Customer : IEntity
     [Column(TypeName ="varchar")]
     public string? PhoneNumber { get; set; } = null!;
 
-
     [Column(TypeName ="datetime")]
-    public DateTime DateOfBirth { get; set; }
+    public DateTime? DateOfBirth { get; set; }
 
-    public Account Account { get; set; } = null!;
+    public Account? Account { get; set; } = null!;
 
     public bool IsDeleted {  get; set; }
 }

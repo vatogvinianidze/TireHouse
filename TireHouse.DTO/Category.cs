@@ -18,5 +18,4 @@ public class Category : IEntity
 
     public IEnumerable<Product>? Products { get; set; }
 
-
 }

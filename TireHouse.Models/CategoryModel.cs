@@ -1,3 +1,3 @@
 ﻿namespace TireHouse.Models;
 
-public record CategoryModel(int Id, string Name, string? Description);
+public record CategoryModel(string Name, string? Description);
